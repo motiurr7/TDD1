@@ -31,8 +31,10 @@ public class Configuration {
 	public static void main(String[] args) {
 		Configuration configuration = new Configuration();
 		configuration.loadProperty();
-		System.err.println(configuration.getProperties().get("url"));
+		System.err.println(configuration.getProperty("url"));
 	}
+
+
 
 
 	
